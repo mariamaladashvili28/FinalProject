@@ -1,0 +1,31 @@
+<suite name="MYAUTO.FINALE.PROJECT">
+    <listeners>
+        <listener class-name="org.example.utils.TestListener"/>
+    </listeners>
+
+
+    <test name="Login Page">
+
+        <parameter name="email" value="mariamaladashvili28@gmail.com"/>
+        <parameter name="password" value="Alada12345!"/>
+
+        <classes>
+            <class name="org.example.test.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Welcome Page">
+
+        <classes>
+            <class name="org.example.test.WelcomeTest"/>
+        </classes>
+    </test>
+
+    <test name="Search Page">
+        <classes>
+            <class name="org.example.test.SearchTest"/>
+        </classes>
+    </test>
+
+
+</suite>
